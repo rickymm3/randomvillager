@@ -10,7 +10,7 @@ Requires both the **Behavior Pack** and the **Resource Pack** (included in this 
 ## What It Does
 
 - Adds a custom villager called **§d§lRandomizer** (bold magenta name).
-- It uses a rare **Swamp Cleric** appearance — no extra artwork needed.
+- It uses a **Swamp Cleric** appearance via vanilla Bedrock assets — the Resource Pack (included) points to the built-in villager textures, so no custom artwork is needed.
 - Two unlimited trades:
   - **1 Dirt → 1 random item**
   - **1 Cobblestone → 1 random item**

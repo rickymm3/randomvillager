@@ -3,7 +3,7 @@
   "minecraft:entity": {
     "description": {
       "identifier": "randomizer:vendor",
-      "runtime_identifier": "minecraft:villager_v2",
+      "runtime_identifier": "minecraft:wandering_trader",
       "is_spawnable": true,
       "is_summonable": true,
       "is_experimental": false
