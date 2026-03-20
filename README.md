@@ -56,6 +56,11 @@ Once the pack is active in your world or Realm, use either command:
 ```
 *(Summons the vendor at your current location.)*
 
+To give the vendor its purple name after spawning, run:
+```
+/name @e[type=randomizer:vendor,r=5] "§d§lRandomizer"
+```
+
 ---
 
 ## Pack Structure

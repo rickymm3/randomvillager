@@ -11,9 +11,6 @@
           ],
           "gives": [
             {
-              "item": {
-                "item": "minecraft:stick"
-              },
               "loot_table": "loot_tables/randomizer_pool.json"
             }
           ],
@@ -31,9 +28,6 @@
           ],
           "gives": [
             {
-              "item": {
-                "item": "minecraft:stick"
-              },
               "loot_table": "loot_tables/randomizer_pool.json"
             }
           ],

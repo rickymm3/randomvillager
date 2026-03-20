@@ -3,6 +3,7 @@
   "minecraft:entity": {
     "description": {
       "identifier": "randomizer:vendor",
+      "runtime_identifier": "minecraft:villager_v2",
       "is_spawnable": true,
       "is_summonable": true,
       "is_experimental": false
@@ -12,11 +13,8 @@
         "family": ["villager", "mob"]
       },
       "minecraft:nameable": {
-        "always_show": true,
-        "default_trigger": "",
-        "name_actions": []
+        "always_show": true
       },
-      "minecraft:custom_name": "§d§lRandomizer",
       "minecraft:health": {
         "value": 20,
         "max": 20
@@ -47,44 +45,8 @@
       "minecraft:movement": {
         "value": 0.0
       },
-      "minecraft:navigation.walk": {
-        "can_path_over_water": false,
-        "avoid_water": true
-      },
       "minecraft:movement.basic": {},
       "minecraft:jump.static": {},
-      "minecraft:can_climb": {},
-      "minecraft:loot": {},
-      "minecraft:despawn": {
-        "despawn_from_distance": {}
-      },
-      "minecraft:trade_table": {
-        "display_name": "§d§lRandomizer",
-        "table": "trading/randomizer_trades.json",
-        "new_screen": true,
-        "persist_trades": true,
-        "convert_trades_economy": false
-      },
-      "minecraft:interact": {
-        "interactions": [
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  {
-                    "test": "is_family",
-                    "subject": "other",
-                    "value": "player"
-                  }
-                ]
-              }
-            },
-            "use_item": false,
-            "swing": false,
-            "interact_text": "action.interact.trade"
-          }
-        ]
-      },
       "minecraft:economy_trade_table": {
         "display_name": "§d§lRandomizer",
         "table": "trading/randomizer_trades.json",
@@ -103,17 +65,11 @@
       "minecraft:behavior.random_look_around": {
         "priority": 9
       },
-      "minecraft:villager_v2_trade_tier": {
-        "max_trade_tier": 5
-      },
-      "minecraft:skin_id": {
+      "minecraft:variant": {
         "value": 5
       },
-      "minecraft:variant": {
-        "value": 3
-      },
       "minecraft:mark_variant": {
-        "value": 4
+        "value": 6
       }
     }
   }
