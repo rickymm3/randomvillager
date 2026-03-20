@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "RandomizerVendor",
+    "description": "A custom villager that trades dirt or stone for a random item!",
+    "uuid": "5c2e90c2-2a6e-4bdc-a4c4-c8162313f83c",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "3158a287-e907-49b9-a651-792a7939d101",
+      "version": [1, 0, 0]
+    }
+  ]
+}
