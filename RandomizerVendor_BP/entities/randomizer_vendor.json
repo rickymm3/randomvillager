@@ -1,0 +1,76 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "randomizer:vendor",
+      "runtime_identifier": "minecraft:wandering_trader",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["villager", "mob"]
+      },
+      "minecraft:nameable": {
+        "always_show": true
+      },
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "on_damage": {
+              "filters": {}
+            },
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:persistent": {},
+      "minecraft:movement": {
+        "value": 0.0
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:trade_table": {
+        "display_name": "§d§lRandomizer",
+        "table": "trading/randomizer_trades.json",
+        "new_screen": true,
+        "persist_trades": true,
+        "convert_trades_economy": false
+      },
+      "minecraft:behavior.trade_with_player": {
+        "priority": 1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 8,
+        "look_distance": 8.0,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 9
+      },
+      "minecraft:variant": {
+        "value": 5
+      },
+      "minecraft:mark_variant": {
+        "value": 6
+      }
+    }
+  }
+}
