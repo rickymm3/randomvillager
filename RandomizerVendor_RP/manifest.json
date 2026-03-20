@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "RandomizerVendor Resources",
+    "description": "Textures and model for the Randomizer Vendor villager",
+    "uuid": "acd91aa0-f74d-4060-bc11-529257c5b4c8",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "861821a8-f7c4-4ecf-ac2b-53789be00b17",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "5c2e90c2-2a6e-4bdc-a4c4-c8162313f83c",
+      "version": [1, 0, 0]
+    }
+  ]
+}

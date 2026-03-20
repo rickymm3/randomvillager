@@ -22,7 +22,7 @@
         {
           "wants": [
             {
-              "item": "minecraft:stone",
+              "item": "minecraft:cobblestone",
               "quantity": 1
             }
           ],

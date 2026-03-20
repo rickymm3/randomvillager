@@ -47,7 +47,7 @@
       },
       "minecraft:movement.basic": {},
       "minecraft:jump.static": {},
-      "minecraft:economy_trade_table": {
+      "minecraft:trade_table": {
         "display_name": "§d§lRandomizer",
         "table": "trading/randomizer_trades.json",
         "new_screen": true,
